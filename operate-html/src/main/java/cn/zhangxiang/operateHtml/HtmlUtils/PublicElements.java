@@ -13,5 +13,15 @@ public class PublicElements {
 	 * 为了生成严格的HTML自定义替换标签
 	 */
 	public static final String ReplaceSign = "staticReplaceSign";
+	
+	/**
+	 * 最终生成的HTML需要被替换的字符
+	 */
+	public static final String repalceOldOther = "class=\"replaceSignDontMove\"\\>";
+	
+	/**
+	 * 最终生成的html需要替换后的字符
+	 */
+	public static final String repalceNewOther = "\\/\\>";
 
 }
